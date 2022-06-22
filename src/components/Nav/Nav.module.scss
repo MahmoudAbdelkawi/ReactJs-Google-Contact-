@@ -1,0 +1,25 @@
+.container{
+    width:70%;
+    text-align:center;
+    margin: auto;
+    padding:10px;
+    cursor  : pointer !important;
+    .size{
+        width: 35px !important;
+        height: 35px !important;
+        padding-top:5px !important;
+        padding-left: 1px !important;
+    }
+    span{
+      color:#000;
+    }
+    &:hover{
+      background-color:#eee !important;
+      transition:0.5s;
+    }
+    .btn{
+      cursor  : pointer !important;
+    }
+}
+
+

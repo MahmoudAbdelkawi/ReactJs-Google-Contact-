@@ -1,0 +1,29 @@
+.container {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer !important;
+}
+
+.container .size {
+  width: 35px !important;
+  height: 35px !important;
+  padding-top: 5px !important;
+  padding-left: 1px !important;
+}
+
+.container span {
+  color: #000;
+}
+
+.container:hover {
+  background-color: #eee !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container .btn {
+  cursor: pointer !important;
+}
+/*# sourceMappingURL=Nav.module.css.map */
